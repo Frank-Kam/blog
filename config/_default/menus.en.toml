@@ -11,18 +11,18 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "文章"
+  name = "articles"
   pageRef = "blogs"
   weight = 100
 [[main]]
-    name = "技術類文章"
-    parent = "文章"
+    name = "技術"
+    parent = "articles"
     pageRef = "blogs/tech-c"
     weight = 100
 
 [[main]]
     name = "雜談"
-    parent = "文章"
+    parent = "articles"
     pageRef = "blogs/other-c"
     weight = 100
 

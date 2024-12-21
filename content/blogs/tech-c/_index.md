@@ -1,5 +1,5 @@
 ---
-title: "技術類文章"
+title: "技術"
 description: "Franks'blog 技術類文章 blog whiteup"
 
 cascade:
