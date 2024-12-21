@@ -35,7 +35,7 @@ FOSS-Its means Open for what?
 ```
 
 index.html source 
-```html=
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,7 +61,7 @@ index.html source
 ```
 ---
 next.html source 
-```html=
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,7 +78,7 @@ next.html source
 ```
 對上面的提供的next.html第8行(最長的)進行解混淆得到:
 Deobfuscate the provided line 8 (longest) of next.html to obtain:
-```javascript!=
+```javascript
 const encryptedFlag = [
     239,
     221,
