@@ -17,13 +17,13 @@
 [[main]]
     name = "技術"
     parent = "posts"
-    pageRef = "posts/tech-c"
+    pageRef = "posts/tech"
     weight = 100
 
 [[main]]
     name = "雜談"
     parent = "posts"
-    pageRef = "posts/other-c"
+    pageRef = "posts/others"
     weight = 100
 
 
