@@ -1,4 +1,5 @@
 User-agent: *
+
 Disallow: /contact
 Disallow: /about
 
