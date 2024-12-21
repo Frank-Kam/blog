@@ -2,7 +2,7 @@ User-agent: *
 
 Disallow: /contact
 Disallow: /about
-
+Disallow: /blog/other-c/school-sec
 Sitemap: https://frankk.uk/sitemap.xml
 Sitemap: https://frankk.pages.dev/sitemap.xml
 
