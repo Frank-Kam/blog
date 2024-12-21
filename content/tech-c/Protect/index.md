@@ -36,5 +36,4 @@ Tor通過一種叫做路徑選擇演算法的方式自動在網路中選擇3個T
 會在"其他要注意的"來講解
 #### 從Tor瀏覽器層面實現匿名
 1. 先下載Tor瀏覽器
-![下載Tor](https://hackmd.io/_uploads/Hyqzp5Tq0.png)
 下載[連結](https://www.torproject.org/zh-TW/download/)
