@@ -1,6 +1,6 @@
 ---
-title: "文档"
-description: "如何使用 Blowfish。"
+title: "技術類文章"
+description: "Franks'blog 技術類文章 blog whiteup"
 
 cascade:
   showDate: false
@@ -9,6 +9,3 @@ cascade:
 ---
 
 
-vgv
-
----

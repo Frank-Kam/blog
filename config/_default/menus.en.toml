@@ -11,7 +11,11 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-    name = "技術類"
+  name = "文章"
+  weight = 100
+
+[[main]]
+    name = "技術類文章"
     parent = "文章"
     pageRef = "tech-c"
     weight = 10
@@ -19,14 +23,14 @@
 [[main]]
     name = "雜談"
     parent = "文章"
-    pageRef = "othes-c"
+    pageRef = "other-c"
     weight = 10
 
 
 [[main]]
     name = "關於我"
     pageRef = "about"
-    weight = 20
+    weight = 200
 
 #[[about]]
 # name = "關於我"
@@ -71,10 +75,10 @@
 # the copyright notice. Configure as per the main menu above.
 
 
- [[footer]]
-    name = "Tags"
-    pageRef = "about"
-    weight = 10
+#[[footer]]
+#   name = "Tags"
+#  pageRef = "about"
+#    weight = 10
 
 # [[footer]]
 #   name = "Categories"
