@@ -1,11 +1,11 @@
 ---
 title: "關於我挖Zeroday遇到的鳥事"
 description: "神奇的事情"
+date: 2024/12/21
 
-draft: false
 slug: "school-sec"
 cascade:
-  showDate: false
+  showDate: true
   showAuthor: false
   invertPagination: true
 ---
