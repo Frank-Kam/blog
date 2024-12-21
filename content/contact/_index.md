@@ -11,6 +11,6 @@ cascade:
 - 現實生活
 - [Discord](https://discord.com/users/988032182083805235)
 - [Instgram](https://instagram.com/frankkam_sing)
-- [Email](mailto:ganl68384@proton.me)
+- [Email](mailto:mail@frankk.uk)
 ## 其他連結:
 - [GitHub](https://github.com/Frank-Kam)
