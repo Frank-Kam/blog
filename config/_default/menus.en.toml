@@ -18,19 +18,24 @@
     name = "技術類文章"
     parent = "文章"
     pageRef = "tech-c"
-    weight = 10
+    weight = 100
 
 [[main]]
     name = "雜談"
     parent = "文章"
     pageRef = "other-c"
-    weight = 10
+    weight = 100
 
 
 [[main]]
     name = "關於我"
     pageRef = "about"
     weight = 200
+
+[[main]]
+    name = "contactacme"
+    pageRef = "contact"
+    weight = 300
 
 #[[about]]
 # name = "關於我"
