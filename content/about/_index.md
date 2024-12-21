@@ -25,7 +25,7 @@ cascade:
 
 
 
-## 友站：
+## 友站(大佬的站)：
 
 [檸檬茶](https://alvin-tw.me/)
 
