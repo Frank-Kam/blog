@@ -56,11 +56,11 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [article]
   showDate = false
-  showViews = true
+  showViews = false
   showLikes = false
   showDateOnlyInArticle = false
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   # showAuthorBottom = false
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
@@ -83,7 +83,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showAuthorsBadges = false
   showWordCount = false
   #sharingLinks = [  "threads", "instagram", "email"]
-  showZenMode = false
+  showZenMode = true
 
 [list]
   showHero = false
@@ -97,7 +97,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showTableOfContents = false
   showCards = false
   orderByWeight = false
-  groupByYear = true
+  groupByYear = false
   cardView = false
   cardViewScreenWidth = false
   constrainItemsWidth = false
