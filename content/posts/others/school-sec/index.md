@@ -1,6 +1,6 @@
 ---
 title: "關於我挖Zeroday遇到的鳥事"
-description: "神奇的事情"
+description: ""
 date: 2024/12/21
 
 slug: "school-sec"

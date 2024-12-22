@@ -13,29 +13,33 @@
 [[main]]
   name = "posts"
   pageRef = "posts"
-  weight = 100
+  weight = 1
 [[main]]
     name = "技術"
     parent = "posts"
     pageRef = "posts/tech"
-    weight = 100
+    weight = 1
 
 [[main]]
     name = "雜談"
     parent = "posts"
     pageRef = "posts/others"
-    weight = 100
+    weight = 1
 
+[[main]]
+    name = "tool-box"
+    pageRef = "posts/tools"
+    weight = 2
 
 [[main]]
     name = "about"
     pageRef = "about"
-    weight = 200
+    weight = 3
 
 [[main]]
     name = "concatcatcme"
     pageRef = "contact"
-    weight = 300
+    weight = 4
 
 #[[about]]
 # name = "關於我"
