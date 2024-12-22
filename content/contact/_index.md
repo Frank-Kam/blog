@@ -10,7 +10,7 @@ cascade:
 ## 如何找到我
 - 現實生活
 - [Discord](https://discord.com/users/988032182083805235)
-- [Instgram](https://instagram.com/frankkam_sing)
+- [Instgram](https://instagram.com/frankkam1214)
 - [Email](mailto:mail@frankk.uk)
 ## 其他連結
 - [GitHub](https://github.com/Frank-Kam)

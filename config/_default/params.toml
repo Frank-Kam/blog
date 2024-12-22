@@ -45,12 +45,14 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/back.webp" # used in: hero, and card
   showRecent = true
-  showRecentItems = 30
-  showMoreLink = false
-  showMoreLinkDest = "/other-c/"
+  showRecentItems = 19
+  showMoreLink = true
+  showMoreLinkDest = "/posts/"
   cardView = true
   cardViewScreenWidth = true
   layoutBackgroundBlur = true # only used when layout equals background
+  Links = [ "email", "discord", "instagram", "threads", "github"]
+
 
 [article]
   showDate = false
@@ -80,7 +82,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showTaxonomies = true
   showAuthorsBadges = false
   showWordCount = true
-  #sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
+  #sharingLinks = [  "threads", "instagram", "email"]
   showZenMode = true
 
 [list]
