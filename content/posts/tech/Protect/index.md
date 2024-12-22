@@ -1,11 +1,11 @@
 ---
 title: "如何避免被監控(反鑑識)-持續更新"
 description: "政府或網路服務供應商監控用戶或人民的手段越來越多和密集，如何避免被監控是個重要議題"
-date: 2024/12/21
+
 draft: false
 slug: "protect-how"
 cascade:
-  showDate: true
+  showDate: false
   showAuthor: false
   invertPagination: true
 ---

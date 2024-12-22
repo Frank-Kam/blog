@@ -1,11 +1,9 @@
 ---
 title: "關於我挖Zeroday遇到的鳥事"
 description: ""
-date: 2024/12/21
-
 slug: "school-sec"
 cascade:
-  showDate: true
+  showDate: false
   showAuthor: false
   invertPagination: true
 ---

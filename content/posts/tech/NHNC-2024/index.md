@@ -1,11 +1,11 @@
 ---
 title: "NHNC 2024 Writeup"
 description: "Frank的廢文-No Hack No CTF(NHNC) 2024的官方Writeup"
-date: 2024/12/21
+
 draft: false
 slug: "NHNC-2024"
 cascade:
-  showDate: true
+  showDate: false
   showAuthor: false
   invertPagination: true
 ---

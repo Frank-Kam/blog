@@ -35,10 +35,10 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
-  showMenu = true
+  showMenu = false
   showCopyright = true
-  showThemeAttribution = true
-  showAppearanceSwitcher = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = false
   showScrollToTop = true
 
 [homepage]
@@ -55,9 +55,9 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 
 [article]
-  showDate = false
+  showDate = true
   showViews = false
-  showLikes = false
+  showLikes = true
   showDateOnlyInArticle = false
   showDateUpdated = false
   showAuthor = false
@@ -72,13 +72,13 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   # editURL = "https://github.com/username/repo/"
   editAppendPath = false
   seriesOpened = false
-  showHeadingAnchors = false
-  showPagination = false
+  showHeadingAnchors = true
+  showPagination = true
   invertPagination = false
-  showReadingTime = false
+  showReadingTime = true
   showTableOfContents = true
   showRelatedContent = true
-  relatedContentLimit = 6
+  relatedContentLimit = 19
   showTaxonomies = false
   showAuthorsBadges = false
   showWordCount = false
