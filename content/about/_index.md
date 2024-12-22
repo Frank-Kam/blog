@@ -25,10 +25,6 @@ cascade:
 用過無數Linux系統，現在主力則是用<code>Debian 12</code>
 
 
-~~待補...~~
-
-
-
 ## 經歷
 
 **[ICEDTEA](https://ic3dt3a.org) Core Member** *2024~*
