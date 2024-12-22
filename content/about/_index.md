@@ -25,6 +25,18 @@ cascade:
 
 
 
+## 經歷
+
+**[ICEDTEA](https://ic3dt3a.org) Core Member** *2024~*
+
+**[No Hack No CTF 2024](https://discord.gg/gVxmuVEW6b) Staff**
+
+**[COSCUP 2024](https://coscup.org) 場務組**
+
+~~比賽太多懶得寫~~
+
+
+
 ## 友站(大佬的站)
 
 [檸檬茶](https://alvin-tw.me/)
