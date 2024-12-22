@@ -11,7 +11,7 @@ cascade:
 ### also is FrankKam
 ---
 ## 關於我
-我平時喜歡看動畫，學習Server和Network之類的技能和知識，資安...太多興趣了我寫不完... </br>
+我平時喜歡看動畫<code>這站根目錄那部電影是我最愛</code>，學習Server和Network之類的技能和知識，資安...太多興趣了我寫不完... </br>
 
 目前是位<code>高二生</code>，就讀<code>大園國際~~笑話~~高級中等學校-普通科</code> </br>
 
