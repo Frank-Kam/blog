@@ -6,7 +6,6 @@ Disallow: /404
 Disallow: /posts/othes/school-sec
 
 Sitemap: https://frankk.uk/sitemap.xml
-Sitemap: https://frankk.pages.dev/sitemap.xml
 
 # Can u find all the Easter eggs?
 
