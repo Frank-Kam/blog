@@ -32,8 +32,8 @@
     weight = 2
 
 [[main]]
-    name = "concatcatcme"
-    pageRef = "contact"
+    name = "about"
+    pageRef = "about"
     weight = 3
 
 #[[about]]
