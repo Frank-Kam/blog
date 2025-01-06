@@ -1,6 +1,5 @@
 User-agent: *
 
-Disallow: /contact
 Disallow: /posts/othes/school-sec
 
 Sitemap: https://frankk.uk/sitemap.xml
