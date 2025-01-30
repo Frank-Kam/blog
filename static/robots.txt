@@ -5,6 +5,7 @@ Disallow: /404
 
 Sitemap: https://frankk.uk/sitemap.xml
 
+# 使用電腦是最舒適的服用方法
 
 #  __  __  ______   ____  __          __ 
 # |  \/  ||  ____| / __ \ \ \        / / 
