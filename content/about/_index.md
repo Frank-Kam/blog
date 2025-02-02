@@ -27,7 +27,7 @@ cascade:
 
 ## 經歷
 
-**ICEDTEA Member** *2024~*  [CTFtime](https://ctftime.org/team/303514), [Blog](https://blog.ic3dt3a.org/)
+**ICEDTEA Member** *2024-Present*  [CTFtime](https://ctftime.org/team/303514), [Blog](https://blog.ic3dt3a.org/)
 
 **[No Hack No CTF 2024](https://discord.gg/gVxmuVEW6b) Staff**
 
