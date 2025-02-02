@@ -27,7 +27,7 @@ cascade:
 
 ## 經歷
 
-**[ICEDTEA](https://ic3dt3a.org) Core Member** *2024~*
+**ICEDTEA Member** *2024~*  [CTFtime](https://ctftime.org/team/303514), [Blog](https://blog.ic3dt3a.org/)
 
 **[No Hack No CTF 2024](https://discord.gg/gVxmuVEW6b) Staff**
 
@@ -46,7 +46,3 @@ cascade:
 [Wolf Yuan](https://wolf-yuan.dev/)
 
 <code>要放這的DM我</code>
-
-
-
-
