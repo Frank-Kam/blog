@@ -1,0 +1,55 @@
+---
+import { type MarkdownHeading } from 'astro'
+
+interface Props {
+    headings: MarkdownHeading[]
+}
+
+interface Headings {
+    current: MarkdownHeading
+    children?: MarkdownHeading[]
+}
+
+const { headings } = Astro.props
+
+const formatedHeadings = headings.reduce((acc, obj) => {
+    if (obj.depth === 2) {
+        acc.push({ current: obj, children: [] })
+    } else if (obj.depth === 3 && acc.length > 0) {
+        acc[acc.length - 1].children?.push(obj)
+    }
+
+    return acc
+}, [] as Headings[])
+---
+
+<div class="fixed top-[20%] pr-4">
+    <ul class="list-none space-y-2 text-pretty text-sm text-neutral-600 dark:text-neutral-400">
+        {
+            formatedHeadings.map((heading: Headings) => (
+                <li>
+                    <a
+                        class="heading-path outline-none hover:text-orange-500 focus:text-orange-500"
+                        href=`#${heading.current.slug}`
+                    >
+                        {heading.current.text}
+                    </a>
+                    {
+                        heading.children?.map((child: MarkdownHeading) => (
+                            <ol class="list-inside ps-5 mt-2">
+                                <li>
+                                    <a
+                                        class="heading-path outline-none hover:text-orange-500 focus:text-orange-500"
+                                        href=`#${child.slug}`
+                                    >
+                                        {child.text}
+                                    </a>
+                                </li>
+                            </ol>
+                        ))
+                    }
+                </li>
+            ))
+        }
+    </ul>
+</div>

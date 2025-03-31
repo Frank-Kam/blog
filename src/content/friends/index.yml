@@ -1,0 +1,25 @@
+- avatar: 'https://avatars.githubusercontent.com/u/101975746?v=4'
+  social:
+    blog: 'https://blog.alvin-tw.me/'
+    github: 'LemonTeatw1'
+  title: ''
+  avatarDark: 'https://avatars.githubusercontent.com/u/101975746?v=4'
+  name: 'LemonTea'
+  description: "A developer and CTF player"
+
+- avatar: 'https://avatars.githubusercontent.com/u/153426948?v=4'
+  social:
+    github: 'fishbaby1011'
+    blog: "https://blog.fishbaby1011.com/"
+  title: ''
+  name: 'fishbaby1011'
+  description: ''
+
+- avatar: 'https://avatars.githubusercontent.com/u/58245644?v=4'
+  social:
+    blog: 'https://wolf-yuan.dev/'
+    github: 'wolf-yuan-6115'
+  title: ''
+  name: 'Wolf-Yuan'
+  description: ""
+
