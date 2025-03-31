@@ -5,7 +5,7 @@ import Header from '@components/Header.astro'
 import GoogleAnalytics from '@components/support/GoogleAnalytics.astro'
 import UmamiAnalytics from '@components/support/UmamiAnalytics.astro'
 import { SITE } from '@/config'
-
+import SakanaWidget from '@components/SakanaWidget.astro';
 interface Props {
     title: string
     description: string
@@ -20,6 +20,8 @@ const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
 
 <html lang={lang} class="scrollbar-hide lenis lenis-smooth scroll-pt-16">
     <head>
+        <SakanaWidget character="takina" />
+
         <title>{normalizeTitle}</title>
         <BaseHead
             title={normalizeTitle}
@@ -82,5 +84,6 @@ const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
                 pointer-events: none;
             }
         </style>
+
     </body>
 </html>

@@ -1,0 +1,38 @@
+---
+const { character = 'chisato' } = Astro.props;
+---
+
+<div id="sakana-widget"></div>
+
+<script define:vars={{ character }}>
+  document.addEventListener('DOMContentLoaded', function() {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://unpkg.com/sakana-widget@2.7.0/lib/sakana.min.css';
+    document.head.appendChild(link);
+
+    const script = document.createElement('script');
+    script.src = 'https://unpkg.com/sakana-widget@2.7.0/lib/sakana.min.js';
+    script.onload = function() {
+      setTimeout(() => {
+        try {
+          new SakanaWidget({
+            character: character
+          }).mount('#sakana-widget');
+        } catch (error) {
+          console.error('Failed to initialize Sakana widget:', error);
+        }
+      }, 100);
+    };
+    document.body.appendChild(script);
+  });
+</script>
+
+<style>
+  #sakana-widget {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+  }
+</style>
