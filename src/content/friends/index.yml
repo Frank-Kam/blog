@@ -36,5 +36,21 @@
     blog: 'https://yochan06.github.io/'
     github: 'yochan06'
   title: ''
-  name: '佑承'
+  name: 'yochan06'
   description: "A bug bounty beginner"
+
+- avatar: 'https://avatars.githubusercontent.com/u/107759974?v=4'
+  social:
+    blog: 'https://neko70.net/'
+    github: 'qilin102223'
+  title: ''
+  name: 'Chilin.h'
+  description: "資安新手 (?"
+
+- avatar: 'https://avatars.githubusercontent.com/u/115418645?v=4'
+  social:
+    blog: 'https://elliot-tw.pages.dev/'
+    github: 'Elliot-32'
+  title: ''
+  name: 'Elliot_404'
+  description: "一個資安新手 (?"
