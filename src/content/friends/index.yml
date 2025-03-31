@@ -30,3 +30,11 @@
   title: ''
   name: 'Ummit'
   description: "Can't life without GNU/Linux"
+
+- avatar: 'https://avatars.githubusercontent.com/u/132590659?v=4'
+  social:
+    blog: 'https://yochan06.github.io/'
+    github: 'yochan06'
+  title: ''
+  name: '佑承'
+  description: "A bug bounty beginner"
