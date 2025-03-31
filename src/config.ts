@@ -19,6 +19,7 @@ export const FooterLinks = [
         section: 'Links',
         links: [
             { name: 'RSS', url: '/rss.xml' },
+            { name: 'Source', url: 'https://github.com/Frank-Kam/blog' },
             { name: 'Link Page', url: 'https://frankk.uk' },
         ],
     },
