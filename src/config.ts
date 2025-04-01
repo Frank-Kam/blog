@@ -2,7 +2,7 @@ import type { NavigationLink, Site } from './types.ts'
 
 export const SITE: Site = {
     author: '',
-    url: 'https://frankk.uk',
+    url: 'https://blog.frankk.uk',
     title: 'Frank\'s Blog',
     description: 'Frank\'s Blog, A CTF Player & Security Researcher & Developer',
     shortDescription: '',
@@ -16,8 +16,9 @@ export const NavigationLinks: NavigationLink[] = [
 
 export const FooterLinks = [
     {
-        section: 'Links',
+        section: 'This Blog',
         links: [
+            { name: 'Sitemap', url: '/sitemap-index.xml' },
             { name: 'RSS', url: '/rss.xml' },
             { name: 'Source', url: 'https://github.com/Frank-Kam/blog' },
             { name: 'Link Page', url: 'https://frankk.uk' },
