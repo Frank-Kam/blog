@@ -10,6 +10,7 @@ export const SITE: Site = {
 
 export const NavigationLinks: NavigationLink[] = [
     { name: 'Posts', url: '/posts' },
+    { name: 'Timeline', url: '/timeline' },
     { name: 'About', url: '/posts/about' },
     { name: 'Friends', url: '/friends' },
 ]
