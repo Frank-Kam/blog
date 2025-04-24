@@ -19,10 +19,10 @@ export const FooterLinks = [
     {
         section: 'This Blog',
         links: [
-            { name: 'Sitemap', url: '/sitemap-index.xml' },
-            { name: 'RSS', url: '/rss.xml' },
-            { name: 'Source', url: 'https://github.com/Frank-Kam/blog' },
+            { name: 'Source & License', url: 'https://github.com/Frank-Kam/blog' },
             { name: 'Link Page', url: 'https://frankk.uk' },
+            { name: 'RSS', url: '/rss.xml' },
+            { name: 'Sitemap', url: '/sitemap-0.xml' },
         ],
     },
     {
