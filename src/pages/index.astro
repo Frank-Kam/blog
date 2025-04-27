@@ -4,7 +4,6 @@ import type { CollectionEntry } from 'astro:content'
 import BaseLayout from '@layouts/BaseLayout.astro'
 import BlogInsight from '@components/blog/BlogInsight.astro'
 import HeroSection from '@components/ui/sections/HeroSection.astro'
-import FeaturesSection from '@components/ui/sections/FeaturesSection.astro'
 import HeroSectionAlt from '@components/ui/sections/HeroSectionAlt.astro'
 import blogHeroImg from '@images/home.png'
 
@@ -23,16 +22,13 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts')).sort(
         alt="godruoyi's blog"
     />
 
-    <FeaturesSection />
 
     <section class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full">
         <div class="mx-auto mb-10 max-w-2xl text-center lg:mb-14">
             <h2 class="text-3xl font-bold text-neutral-800 dark:text-neutral-200 md:text-4xl md:leading-tight">
-                Latest Post
+                Posts
             </h2>
-            <p class="mt-1 text-pretty text-neutral-600 dark:text-neutral-400">
-                Always want to write something, but rarely actually do it
-            </p>
+            
         </div>
         <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {
@@ -45,7 +41,7 @@ const posts: CollectionEntry<'posts'>[] = (await getCollection('posts')).sort(
 
     <HeroSectionAlt
         title="Meow me on GitHub"
-        subTitle="I love open source and have some small tools on my GitHub. You can get me more by checking out my code"
+        subTitle=""
         url="https://github.com/Frank-Kam"
     />
 </BaseLayout>

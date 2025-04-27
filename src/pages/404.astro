@@ -4,23 +4,23 @@ import PrimaryCTA from '@components/ui/buttons/PrimaryCTA.astro'
 import { SITE } from '@/config'
 
 const pageTitle: string = `Page Not Found | ${SITE.title}`
-
-const title: string = '404 Not Found'
-const subTitle: string = ''
 ---
 
 <BaseLayout title={pageTitle}>
-    <section class="grid h-svh place-content-center">
-        <div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
-            <div class="mx-auto max-w-screen-sm text-center">
-                <h1 class="text-dark mb-4 text-7xl font-extrabold text-yellow-500 dark:text-yellow-400 lg:text-9xl">
-                    {title}
-                </h1>
-                <p class="mb-4 text-balance text-3xl font-bold tracking-tight text-neutral-700 dark:text-neutral-300 md:text-4xl">
-                    {subTitle}
-                </p>
-                <PrimaryCTA title="Home" url="/" />
-            </div>
+    <section class="flex min-h-svh flex-col items-center justify-center px-4 py-8">
+        <div class="w-full max-w-5xl text-center">
+          <h1 class="mb-2 text-4xl font-extrabold text-yellow-500 dark:text-yellow-400 md:text-5xl">
+            Page Not Found
+          </h1>
+          <p class="mb-6 text-sm text-neutral-600 dark:text-neutral-400 md:text-base">
+            Take things as they come — enjoy the music!          
+          </p>
+          <div class="mb-8 w-full overflow-hidden rounded-2xl shadow-lg">
+            <iframe class="aspect-video w-full" src="https://www.youtube.com/embed/Ht6lcYg9Zfo?si=0W5iDrTmE_ZbD2ra" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div>
+            <PrimaryCTA title="Back to Home" url="/" className="mt-4" />
+          </div>
         </div>
-    </section>
+      </section>                 
 </BaseLayout>
