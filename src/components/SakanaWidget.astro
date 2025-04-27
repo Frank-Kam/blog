@@ -8,11 +8,11 @@ const { character = 'chisato' } = Astro.props;
   document.addEventListener('DOMContentLoaded', function() {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = 'https://unpkg.com/sakana-widget@2.7.0/lib/sakana.min.css';
+    link.href = '/vendor/sakana/sakana.min.css';
     document.head.appendChild(link);
 
     const script = document.createElement('script');
-    script.src = 'https://unpkg.com/sakana-widget@2.7.0/lib/sakana.min.js';
+    script.src = '/vendor/sakana/sakana.min.js';
     script.onload = function() {
       setTimeout(() => {
         try {
