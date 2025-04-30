@@ -1,15 +1,16 @@
 ---
 title: "在n8n遇到Connection lost可能的解決方法"
-description: "在n8n遇到Connection lost可能的解決方法，n8n Connection lost Error"
+description: "n8n 上的 Connection lost的解決方法"
 pubDate: "2025-4-30 17:15:00"
 category: "Develop"
 banner: "@images/posts/n8n-proxy_banner.webp"
 tags: ["Develop"]
+tags: ["n8n"]
 oldViewCount: 8084
 oldKeywords: [""]
 ---
 # 緣起 
-這幾天在研究 [n8n](n8n.io) 該如何使用，原本只有架設在 local ，但發現我們社團的主機有好幾臺在空著就架在了那邊
+這幾天在研究 [n8n](https://n8n.io) 該如何使用，原本只有架設在 local ，但發現我們社團的主機有好幾臺在空著就架在了那邊
 
 # 怎麽架的？
 我用官方文件的 docker run 來跑， Port 跑在預設的 5678 沒有設Docker Proxy
