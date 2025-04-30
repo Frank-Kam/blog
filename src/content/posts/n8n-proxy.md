@@ -4,7 +4,6 @@ description: "n8n 上的 Connection lost的解決方法"
 pubDate: "2025-4-30 17:15:00"
 category: "Develop"
 banner: "@images/posts/n8n-proxy_banner.webp"
-tags: ["Develop"]
 tags: ["n8n"]
 oldViewCount: 8084
 oldKeywords: [""]
