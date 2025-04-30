@@ -2,10 +2,9 @@
 import BaseHead from '@components/BaseHead.astro'
 import Footer from '@components/Footer.astro'
 import Header from '@components/Header.astro'
-import GoogleAnalytics from '@components/support/GoogleAnalytics.astro'
-import UmamiAnalytics from '@components/support/UmamiAnalytics.astro'
 import { SITE } from '@/config'
-import SakanaWidget from '@components/SakanaWidget.astro';
+import SakanaWidget from '@components/SakanaWidget.astro'
+
 interface Props {
     title: string
     description: string
@@ -16,6 +15,8 @@ interface Props {
 
 const { title, description = SITE.description, ogImage, lang = 'zh-Hant-TW', structuredData } = Astro.props
 const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
+
+
 ---
 
 <html lang={lang} class="scrollbar-hide lenis lenis-smooth scroll-pt-16">
@@ -47,9 +48,9 @@ const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
             requestAnimationFrame(raf)
         }
         requestAnimationFrame(raf)
+        
         </script>
-        <GoogleAnalytics />
-        <UmamiAnalytics />
+
     </head>
     <body class="bg-neutral-200 selection:bg-yellow-400 selection:text-neutral-700 dark:bg-neutral-800">
         <div class="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
@@ -58,6 +59,9 @@ const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
                 <slot />
             </main>
         </div>
+        <div>
+
+          </div>
         <Footer />
         <style>
             .scrollbar-hide::-webkit-scrollbar {
@@ -84,6 +88,6 @@ const normalizeTitle = !title ? SITE.title : `${title} | ${SITE.title}`
                 pointer-events: none;
             }
         </style>
-
+            
     </body>
 </html>
