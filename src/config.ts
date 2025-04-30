@@ -13,6 +13,7 @@ export const NavigationLinks: NavigationLink[] = [
     { name: 'Timeline', url: '/timeline' },
     { name: 'About', url: '/posts/about' },
     { name: 'Friends', url: '/friends' },
+    { name: 'Contact', url: 'https://frankk.uk/' },
 ]
 
 export const FooterLinks = [
@@ -20,7 +21,6 @@ export const FooterLinks = [
         section: 'This Blog',
         links: [
             { name: 'Source & License', url: 'https://github.com/Frank-Kam/blog' },
-            { name: 'Link Page', url: 'https://frankk.uk' },
             { name: 'RSS', url: '/rss.xml' },
             { name: 'Sitemap', url: '/sitemap-0.xml' },
         ],
