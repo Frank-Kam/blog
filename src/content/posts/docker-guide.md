@@ -38,7 +38,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 # 加入 Docker 官方 source
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-# 更新 source 索引並安裝 Docker
+# 更新 source 並安裝 Docker
 sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io
 
