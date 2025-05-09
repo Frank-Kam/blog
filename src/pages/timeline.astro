@@ -8,7 +8,7 @@ import { SITE } from '@/config'
 const posts: CollectionEntry<'posts'>[] = (await getCollection('posts')).sort(
     (a: CollectionEntry<'posts'>, b: CollectionEntry<'posts'>) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 )
-const description = `Godruoyi All Posts, Currently written ${posts.length} articles. Let's keep up the good work!`
+const description = `Frank All Posts, Currently written ${posts.length} articles. Let's keep up the good work!`
 const URL = Astro.url.href
 ---
 
