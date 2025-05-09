@@ -39,7 +39,7 @@ const pageTitle: string = `Search`
     const query = input.value.trim();
     if (query) {
       const site = window.location.hostname;
-      const searchUrl = `https://www.google.com/search?q=site:${site}+${encodeURIComponent(query)}`;
+      const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}+site:${site}`;
       window.open(searchUrl, '_blank');
     }
   });
