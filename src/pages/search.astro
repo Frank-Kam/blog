@@ -1,0 +1,46 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro'
+
+const pageTitle: string = `Search`
+---
+
+<BaseLayout title={pageTitle}>
+  <main class="flex items-center justify-center px-4 min-h-[calc(100vh-var(--navbar-height))]" style="--navbar-height: 77px;">
+    <div class="w-full max-w-md flex flex-col items-center">
+      <h1 class="text-3xl font-bold mb-6 text-gray-800 dark:text-white">Posts Search</h1>
+      <p class="mb-6 text-sm text-neutral-600 dark:text-neutral-400 md:text-base">
+        Type sth to search ~
+      </p>
+      <form
+        id="search-form"
+        class="w-full flex flex-col gap-3"
+      >
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Enter your search query"
+          class="w-full px-4 py-4 rounded-xl bg-white text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-zinc-500 dark:focus:ring-zinc-200"
+        />
+        <button
+          type="submit"
+          class="group inline-flex items-center justify-center gap-x-2 rounded-lg px-4 py-3 text-sm font-bold text-neutral-50 ring-zinc-500 transition duration-300 focus-visible:ring outline-none border border-transparent bg-orange-400 hover:bg-orange-500 active:bg-orange-500 dark:focus:outline-none disabled:pointer-events-none disabled:opacity-50 2xl:text-base dark:ring-zinc-200"
+        >
+          Search >
+        </button>
+      </form>
+    </div>
+  </main>
+</BaseLayout>
+
+<script is:global type="module">
+  document.getElementById('search-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const input = document.getElementById('search-input');
+    const query = input.value.trim();
+    if (query) {
+      const site = window.location.hostname;
+      const searchUrl = `https://www.google.com/search?q=site:${site}+${encodeURIComponent(query)}`;
+      window.open(searchUrl, '_blank');
+    }
+  });
+</script>

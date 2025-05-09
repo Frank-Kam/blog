@@ -13,6 +13,7 @@ export const NavigationLinks: NavigationLink[] = [
     { name: 'Timeline', url: '/timeline' },
     { name: 'About', url: '/posts/about' },
     { name: 'Friends', url: '/friends' },
+    { name: 'Search', url: '/search' },
     { name: 'Contact', url: 'https://frankk.uk/' },
 ]
 
