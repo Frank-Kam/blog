@@ -8,9 +8,6 @@ const pageTitle: string = `Search`
   <main class="flex items-center justify-center px-4 min-h-[calc(100vh-var(--navbar-height))]" style="--navbar-height: 77px;">
     <div class="w-full max-w-md flex flex-col items-center">
       <h1 class="text-3xl font-bold mb-6 text-gray-800 dark:text-white">Posts Search</h1>
-      <p class="mb-6 text-sm text-neutral-600 dark:text-neutral-400 md:text-base">
-        Type sth to search ~
-      </p>
       <form
         id="search-form"
         class="w-full flex flex-col gap-3"
@@ -18,7 +15,7 @@ const pageTitle: string = `Search`
         <input
           id="search-input"
           type="text"
-          placeholder="Enter your search query"
+          placeholder="Type sth to search !"
           class="w-full px-4 py-4 rounded-xl bg-white text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-zinc-500 dark:focus:ring-zinc-200"
         />
         <button
