@@ -1,21 +1,21 @@
 {
-  "name": "godruoyi.com",
+  "name": "Frank‘s Blog",
   "type": "module",
-  "version": "1.0.0",
-  "homepage": "https://godruoyi.com",
+  "version": "2.0.0",
+  "homepage": "https://blog.frankk.uk",
   "bugs": {
-    "url": "https://github.com/godruoyi/gblog/issues",
-    "email": "godruoyi@gmail.com"
+    "url": "https://github.com/Frank-Kam/blog/issues",
+    "email": "ganl68384@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/godruoyi/gblog.git"
+    "url": "https://github.com/Frank-Kam/blog.git"
   },
-  "license": "MIT",
+  "license": "AGPL-3.0 & CC-BY-SA-4.0",
   "author": {
-    "name": "Godruoyi",
-    "email": "godruoyi@gmail.com",
-    "url": "https://godruoyi.com"
+    "name": "Frank Kam",
+    "email": "ganl68384@gmail.com",
+    "url": "https://frankk.uk"
   },
   "scripts": {
     "dev": "astro dev",
