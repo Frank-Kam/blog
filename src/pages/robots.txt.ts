@@ -8,7 +8,7 @@ Disallow: /friends*
 Disallow: /posts/school-sec*
 Disallow: /vendor*
 Disallow: /search*
-Sitemap: ${new URL('sitemap-index.xml', import.meta.env.SITE).href}`.trim()
+Sitemap: ${new URL('sitemap-0.xml', import.meta.env.SITE).href}`.trim()
 
 export const GET: APIRoute = () => {
     return new Response(robotsTxt, {
