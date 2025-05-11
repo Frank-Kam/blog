@@ -58,7 +58,7 @@ function BlogComments() {
                             reactionsEnabled="1"
                             emitMetadata="0"
                             inputPosition="top"
-                            lang="zh-TW"
+                            lang="en"
                             loading="eager"
                             theme={theme}
                         />
