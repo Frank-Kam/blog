@@ -2,9 +2,9 @@
 title: "關於我挖Zeroday遇到的鳥事"
 description: ""
 pubDate: "2024-12-29 00:00:00"
-category: "Info-Sec"
+category: "info-Sec"
 banner: "@images/posts/school-sec_banner.webp"
-tags: ["Info-Sec"]
+tags: ["Info-sec"]
 oldViewCount: 8084
 oldKeywords: [""]
 ---

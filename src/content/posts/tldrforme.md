@@ -2,7 +2,7 @@
 title: "TL;DR 做的很好，下次別做"
 description: "抱怨文，不用看"
 pubDate: "2025-04-03 16:00:00"
-category: "Life"
+category: "life"
 banner: "@images/posts/tldrsth_banner.avif"
 tags: ["Life"]
 oldViewCount: 8084

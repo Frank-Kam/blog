@@ -2,7 +2,7 @@
 title: "Docker 基礎教學 Part1"
 description: "Docker 介紹和安裝"
 pubDate: "2025-4-30 19:05:00"
-category: "Develop"
+category: "develop"
 banner: "@images/posts/docker-guide_banner.webp"
 tags: ["Docker"]
 oldViewCount: 8084

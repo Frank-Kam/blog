@@ -1,0 +1,110 @@
+---
+import { getCollection } from 'astro:content'
+import type { CollectionEntry } from 'astro:content'
+import BaseLayout from '@layouts/BaseLayout.astro'
+import MainSection from '@components/ui/sections/MainSection.astro'
+import BlogCategoryCard from '../../components/blog/BlogCategoryCard.astro'
+import { timeago } from '../../support/time'
+import { SITE } from '@/config'
+
+const postMap: Map<string, CollectionEntry<'posts'>[]> = (await getCollection('posts')).sort(
+    (a: CollectionEntry<'posts'>, b: CollectionEntry<'posts'>) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+).reduce((acc, obj) => {
+    let posts = acc.get(obj.data.category)
+    if (!posts) {
+        posts = []
+    }
+    posts.push(obj)
+
+    acc.set(obj.data.category, posts)
+
+    return acc
+}, new Map<string, CollectionEntry<'posts'>[]>())
+
+const layoutPattern = [
+    { col: 2, row: 2 },
+    { col: 2, row: 1 },
+    { col: 1, row: 1 },
+    { col: 1, row: 1 },
+    { col: 1, row: 2 },
+    { col: 2, row: 1 },
+    { col: 1, row: 1 },
+    { col: 1, row: 1 },
+    { col: 1, row: 1 },
+    { col: 1, row: 1 },
+]
+
+const categories = (await getCollection('categories')).sort((a, b) => {
+    const aCount = postMap.get(a.slug)?.length ?? 0
+    const bCount = postMap.get(b.slug)?.length ?? 0
+    return bCount - aCount
+}).map((c, index) => {
+    const posts = postMap.get(c.slug)
+    const pattern = layoutPattern[index % layoutPattern.length]
+    const smColSpan = Math.min(pattern.col, 2)
+    const mdColSpan = Math.min(pattern.col, 4)
+    const rowSpan = pattern.row
+    const rowSpanClass = rowSpan > 1 ? `row-span-${rowSpan}` : 'row-span-1'
+    const gridItemClass = `col-span-${smColSpan} md:col-span-${mdColSpan} ${rowSpanClass}`
+    return {
+        ...c,
+        posts,
+        gridItemClass,
+        layoutPattern: {
+            smCol: smColSpan,
+            mdCol: mdColSpan,
+            row: rowSpan,
+            index,
+        },
+    }
+})
+const description = ''
+const URL = Astro.url.href
+---
+
+<BaseLayout
+    title="All Categories"
+    description={description}
+    structuredData={{
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        'inLanguage': 'en-US',
+        '@id': URL,
+        'url': URL,
+        'name': `All Categories - ${SITE.title}`,
+        'description': description,
+        'isPartOf': {
+            '@type': 'WebSite',
+            'url': SITE.url,
+            'name': SITE.title,
+            'description': SITE.description,
+        },
+    }}
+
+>
+    <MainSection title="Categories" subTitle={description} />
+
+    <section class="mx-auto px-4 py-10 sm:px-6 lg:px-8 lg:pt-10 lg:py-14 2xl:max-w-full">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 grid-flow-row-dense">
+            {
+                categories.map((category) => {
+                    return (
+                        <div
+                            class={category.gridItemClass}
+                            style={category.layoutPattern.row > 1 ? 'grid-row: span 2 / span 2;' : ''}
+                        >
+                            <BlogCategoryCard
+                                slug={category.slug}
+                                title={category.data.title}
+                                description={category.data.description}
+                                count={postMap.get(category.slug)?.length ?? 0}
+                                publishDate={timeago(postMap.get(category.slug)?.[0]?.data?.pubDate)}
+                                layoutPattern={category.layoutPattern}
+                            />
+                        </div>
+                    )
+                })
+            }
+        </div>
+    </section>
+</BaseLayout>
