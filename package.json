@@ -33,8 +33,6 @@
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.3.1",
     "@astrojs/tailwind": "^5.1.5",
-    "@docsearch/css": "^3.9.0",
-    "@docsearch/react": "^3.9.0",
     "@giscus/react": "^3.1.0",
     "@playform/compress": "^0.1.9",
     "@types/react": "^19.1.3",
