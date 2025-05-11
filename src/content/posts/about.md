@@ -1,6 +1,6 @@
 ---
 title: "About Frank"
-description: "Frank，大園國際高中高二生"
+description: "關於Frank，CTF Player，打資安的，全端開發者，大園國際高中高二生"
 pubDate: "2007-12-14 12:00:00"
 category: "about"
 banner: "@images/about.avif"
@@ -15,7 +15,7 @@ oldKeywords: [""]
 ## 關於我
 我平時喜歡看動畫，學習Server和Network之類的技能和知識，資安...太多興趣了我寫不完... </br>
 
-目前是位<code>高二生</code>，就讀<code>大園國際~~笑話~~高級中等學校-普通科</code> </br>
+目前是位<code>高二生</code>，就讀<code>大園國際高級中等學校-普通科</code> </br>
 
 這個網站以技術類文章爲主~~然後我圖片都亂選~~ 但</br>
 
