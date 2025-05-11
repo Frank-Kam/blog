@@ -1,14 +1,8 @@
 ---
 const { url, name } = Astro.props;
 
-// 標準化當前頁面路徑和連結 URL，移除末尾斜杠
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
 const normalizedUrl = url.replace(/\/$/, '');
-
-// 檢查高亮條件：
-// 1. 路徑等於 normalizedUrl（例如 /posts）
-// 2. 路徑以 normalizedUrl + '/' 開頭（例如 /posts/docker）
-// 3. 排除 /posts/about
 const isActive = 
     currentPath === normalizedUrl || 
     (currentPath.startsWith(normalizedUrl + '/') && currentPath !== normalizedUrl + '/about');
