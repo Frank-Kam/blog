@@ -2,7 +2,7 @@
 title: "Docker 基礎教學 Part2"
 description: "Docker 基本指令"
 pubDate: "2025-5-11 13:15:00"
-category: "develop"
+category: "docker"
 banner: "@images/posts/docker-guide_banner.webp"
 tags: ["Docker"]
 oldViewCount: 8084

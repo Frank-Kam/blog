@@ -16,7 +16,7 @@ interface Props {
 const { slug, layoutPattern, title, description, count, publishDate } = Astro.props
 const isSingleItem = layoutPattern && layoutPattern.row === 1 && (layoutPattern.smCol === 1 || layoutPattern.mdCol === 1)
 
-const formatedDescription = isSingleItem ? `No description available` : description
+const formatedDescription = isSingleItem ? `` : description
 ---
 <a
     class="ring-zinc-500 dark:ring-zinc-200 dark:focus:outline-none"
