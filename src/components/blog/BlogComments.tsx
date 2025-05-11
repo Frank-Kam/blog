@@ -59,7 +59,6 @@ function BlogComments() {
                             emitMetadata="0"
                             inputPosition="top"
                             lang="en"
-                            loading="lazy"
                             theme={theme}
                         />
                     )
