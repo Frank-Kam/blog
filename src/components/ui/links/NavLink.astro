@@ -3,7 +3,7 @@ const { url, name } = Astro.props;
 
 const currentPath = Astro.url.pathname.replace(/\/$/, '');
 const normalizedUrl = url.replace(/\/$/, '');
-const isActive = currentPath === normalizedUrl;
+const isActive = currentPath === normalizedUrl || currentPath.startsWith(normalizedUrl + '/');
 
 interface Props {
   url: string;
@@ -24,7 +24,6 @@ interface Props {
 >
     {name}
 </a>
-
 <script>
  document.addEventListener('DOMContentLoaded', () => {
      const url = window.location.pathname.replace('//', '')
