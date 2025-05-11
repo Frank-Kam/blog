@@ -58,8 +58,8 @@ function BlogComments() {
                             reactionsEnabled="1"
                             emitMetadata="0"
                             inputPosition="top"
-                            lang="zh-CN"
-                            loading="lazy"
+                            lang="zh-TW"
+                            loading="eager"
                             theme={theme}
                         />
                     )
