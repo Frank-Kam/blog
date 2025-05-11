@@ -1,6 +1,6 @@
 ---
 title: "About Frank"
-description: "關於Frank，CTF Player，打資安的，全端開發者，大園國際高中高二生"
+description: "關於Frank"
 pubDate: "2007-12-14 12:00:00"
 category: "about"
 banner: "@images/about.avif"
