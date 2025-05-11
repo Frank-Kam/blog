@@ -1,0 +1,92 @@
+.DocSearch-Button {
+
+
+
+  @apply flex h-8 w-8 p-0 m-0 justify-center rounded-full font-medium shadow-none;
+
+
+  @apply text-neutral-600 bg-neutral-100 dark:bg-neutral-800/80;
+
+
+}
+
+
+
+
+
+.DocSearch-Button-Placeholder,
+
+
+.DocSearch-Button-Keys {
+
+
+  @apply hidden;
+
+
+}
+
+
+
+
+
+.DocSearch-Button:hover {
+
+
+  @apply bg-neutral-200 dark:bg-neutral-700;
+
+
+  outline: none !important;
+
+
+  box-shadow: none !important;
+
+
+}
+
+
+
+
+
+.DocSearch-Button:focus {
+
+
+  @apply outline-none ring-0 ring-offset-0;
+
+
+  outline: none !important;
+
+
+  box-shadow: none !important;
+
+
+}
+
+
+
+
+
+.DocSearch-Search-Icon {
+
+
+  @apply h-4 w-4;
+
+
+  @apply text-neutral-600 dark:text-neutral-400;
+
+
+  @apply transition duration-300;
+
+
+}
+
+
+
+
+
+.DocSearch-Button:hover .DocSearch-Search-Icon {
+
+
+  @apply text-orange-400 dark:text-orange-300;
+
+
+}

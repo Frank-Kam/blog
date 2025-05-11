@@ -27,7 +27,7 @@ export const FooterLinks = [
         ],
     },
     {
-        section: 'Thanks For',
+        section: 'Fork From',
         links: [
             { name: 'Gblog', url: 'https://github.com/godruoyi/gblog' },
         ],

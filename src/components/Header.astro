@@ -2,6 +2,7 @@
 import NavLink from '@components/ui/links/NavLink.astro'
 import BrandLogo from '@components/ui/logos/BrandLogo.astro'
 import Theme from '@components/ui/logos/Theme.astro'
+import AlgoliaDocSearch from 'components/support/search/AlgoliaDocSearch'
 import { NavigationLinks } from '@/config'
 ---
 
@@ -73,7 +74,8 @@ import { NavigationLinks } from '@/config'
                 {NavigationLinks.map(link => (
                     <NavLink url={link.url} name={link.name} />
                 ))}
-                <span class="hidden md:inline-block">
+                <AlgoliaDocSearch client:only="react" />
+                <span class="hidden md:inline-block ml-[-1.5rem]">
                     <Theme />
                 </span>
             </div>
