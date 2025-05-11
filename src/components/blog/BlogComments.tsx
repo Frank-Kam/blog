@@ -59,7 +59,7 @@ function BlogComments() {
                             emitMetadata="0"
                             inputPosition="top"
                             lang="en"
-                            loading="eager"
+                            loading="lazy"
                             theme={theme}
                         />
                     )
