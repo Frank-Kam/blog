@@ -49,6 +49,7 @@ function BlogComments() {
             {mounted
                 ? (
                         <Giscus
+                            loading="eager"
                             id={id}
                             repo={commentSetting.repo as Repo}
                             repoId={commentSetting.repoId}
