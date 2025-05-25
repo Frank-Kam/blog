@@ -27,9 +27,9 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.2.6",
+    "@astrojs/mdx": "^4.3.0",
     "@astrojs/partytown": "^2.1.4",
-    "@astrojs/react": "^4.2.7",
+    "@astrojs/react": "^4.3.0",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.4.0",
     "@astrojs/tailwind": "^5.1.5",
@@ -37,7 +37,7 @@
     "@playform/compress": "^0.1.9",
     "@types/react": "^19.1.5",
     "@types/unist": "^3.0.3",
-    "astro": "^5.7.14",
+    "astro": "^5.8.0",
     "astro-compressor": "^0.4.1",
     "cursor-effects": "^1.0.17",
     "custom-cursor-react": "^1.0.5",
