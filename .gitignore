@@ -20,4 +20,8 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# Editor config
 .vscode
+
+# Sth cannot post yet
+src/content/posts/Pre-exam_2025.md
