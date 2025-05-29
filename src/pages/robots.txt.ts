@@ -4,10 +4,13 @@ import type { APIRoute } from 'astro'
 const robotsTxt = `
 User-agent: *
 Allow: /
-Disallow: /friends*
+Disallow: /friends/
 Disallow: /posts/school-sec*
-Disallow: /vendor*
-Disallow: /search*
+Disallow: /posts/
+Disallow: /categories/*
+Disallow: /timeline/
+Disallow: /vendor/*
+Disallow: /search/
 Sitemap: ${new URL('sitemap-0.xml', import.meta.env.SITE).href}`.trim()
 
 export const GET: APIRoute = () => {
