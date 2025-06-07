@@ -17,14 +17,10 @@ oldKeywords: [""]
 
 目前是位<code>高二生</code>，就讀<code>大園國際高級中等學校-普通科</code> </br>
 
-這個網站以技術類文章爲主~~然後我圖片都亂選~~ 但</br>
+這個網站以技術類文章爲主，但還是有些其他類別的文章
 
-~~**可能會有些神奇的文章
-，但讓您感到不適干我什麼事情**~~
 
-**Linux&FOSS lover**
-
-用過無數Linux系統，現在主力則是用<code>Debian 12</code>
+**Linux&FOSS lover**，用過無數Linux系統，現在主力則是用 [Arch Linux](https://archlinux.org/)
 
 
 ## 經歷
