@@ -54,5 +54,5 @@ const friendsCollection = defineCollection({
         }),
     ),
 })
-
+    
 export const collections = { posts, categories: categoryCollection, friends: friendsCollection }
