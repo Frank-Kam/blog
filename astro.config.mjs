@@ -11,6 +11,7 @@ import { uploadAssetsToS3 } from './src/support/uploader.ts'
 
 export default defineConfig({
     site: SITE.url,
+    injectGenerator: false,
     image: {
         // If you don't want to optimize images during the BUILD process please set the ASTRO_IMAGE_OPTIMIZE environment variable to false
         // Please note that the environment value here is `string` type on Cloudflare Pages,
