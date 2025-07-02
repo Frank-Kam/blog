@@ -6,7 +6,6 @@ User-agent: *
 Allow: /
 Disallow: /friends/
 Disallow: /posts/school-sec*
-Disallow: /posts/
 Disallow: /categories/*
 Disallow: /timeline/
 Disallow: /vendor/*
