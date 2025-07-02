@@ -37,7 +37,7 @@
     "@playform/compress": "^0.1.9",
     "@types/react": "^19.1.8",
     "@types/unist": "^3.0.3",
-    "astro": "^5.10.1",
+    "astro": "^5.10.2",
     "astro-compressor": "^0.4.1",
     "cursor-effects": "^1.0.17",
     "custom-cursor-react": "^1.0.5",
