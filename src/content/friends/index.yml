@@ -62,3 +62,11 @@
   title: ''
   name: 'Robin'
   description: "花束を"
+
+- avatar: 'https://avatars.githubusercontent.com/u/193865350?v=4'
+  social:
+    blog: 'https://itousouta15.github.io/'
+    github: 'itousouta15'
+  title: ''
+  name: '伊藤蒼太'
+  description: "開發&資安的超級電神"
