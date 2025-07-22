@@ -31,7 +31,6 @@ export default defineConfig({
             SVG: true,
             Logger: 2,
         }),
-        uploadAssetsToS3(),
     ],
     markdown: {
         remarkPlugins: [remarkReadingTime],
