@@ -15,7 +15,7 @@ oldKeywords: [""]
 ## 關於我
 我平時喜歡看動畫，學習Server和Network之類的技能和知識，資安...太多興趣了我寫不完... </br>
 
-目前是位<code>高二生</code>，就讀<code>大園國際高級中等學校-普通科</code> </br>
+目前是位<code>高三生</code>，就讀<code>大園國際高級中等學校-普通科</code> </br>
 
 這個網站以技術類文章爲主，但還是有些其他類別的文章
 
@@ -30,5 +30,11 @@ oldKeywords: [""]
 **[No Hack No CTF 2024](https://discord.gg/gVxmuVEW6b) Staff**
 
 **[COSCUP 2024](https://coscup.org) 場務組**
+
+**[No Hack No CTF 2025](https://discord.gg/gVxmuVEW6b) Staff**
+
+**[SCINT](https://scint.org) 行政組 & 資安計劃負責人** *2025-Present*
+
+**[THJCC CTF 3nd](https://thjcc.cscint.org) 總召** *2025-Present*
 
 ~~比賽太多懶得寫~~
