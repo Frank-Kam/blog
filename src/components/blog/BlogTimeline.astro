@@ -6,16 +6,30 @@ const { blog } = Astro.props
 interface Props {
     blog: CollectionEntry<'posts'>
 }
+
+const postDate = new Date(blog.data.pubDate).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+})
+
+
 ---
 
 <div class="max-w-3xl mx-auto">
     <div class="flex gap-x-2">
-        <div class="relative -ml-2 last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 after:bg-neutral-400">
+        <span class="inline-block text-neutral-700 dark:text-neutral-300 w-32 h-[1.75rem] flex items-center mt-0.5 hidden sm:inline">
+            {postDate}
+        </span>
+        <div class="relative w-6 -ml-2 last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 after:bg-neutral-400">
             <div class="relative z-10 size-7 flex justify-center items-center">
                 <div class="size-2 rounded-full bg-neutral-400 dark:bg-neutral-600"></div>
             </div>
         </div>
-        <div class="grow pt-0.5 pb-8 group">
+        <div class="flex-1 min-w-0 pt-0.5 pb-8 group h-auto">
+            <span class="inline-block text-neutral-700 dark:text-neutral-300 w-32 h-[1.75rem] flex items-center sm:hidden">
+                {postDate}
+            </span>
             <a
                 href=`/posts/${blog.slug}`
                 data-astro-prefetch
