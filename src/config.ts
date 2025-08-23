@@ -2,7 +2,7 @@ import type { NavigationLink, Site } from './types.ts'
 
 export const SITE: Site = {
     author: '',
-    url: 'https://blog.frankk.uk',
+    url: 'https://old-blog.frankk.uk',
     title: 'Frank\'s Blog',
     description: 'Frank\'s Blog, A CTF Player & Security Researcher & Developer',
     shortDescription: '',
